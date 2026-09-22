@@ -1,4 +1,4 @@
-# User data
+# User / application data
 users.json
 tasks.json
 Studytime.csv
@@ -8,16 +8,93 @@ slog.csv
 __pycache__/
 *.py[cod]
 *.pyo
+*.so
+*$py.class
 
 # Virtual environments
 venv/
 .venv/
 env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables / secrets
+.env
+.envrc
+
+# Build / distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+nosetests.xml
 
 # IDE
 .vscode/
 .idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Jupyter
+.ipynb_checkpoints
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs / local databases
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Type checking / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Other Python tools
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+
+# Streamlit secrets
+.streamlit/secrets.toml
